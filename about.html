@@ -1,0 +1,180 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/logo.ico"  type="image/x-icon">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+
+
+        .about {
+            display: flex;
+            padding: 2rem;
+            gap: 2rem;
+        }
+
+        .about-text {
+            width: 50%;
+        }
+
+
+        .img {
+            width: 50%;
+
+        }
+
+        .img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+      
+
+        .about-text h2 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .about-text .about-p {
+            font-size: 1rem;
+            line-height: 1.3rem;
+            font-weight: 400;
+            color: #fdfdfd;
+            margin-bottom: 2rem;
+        }
+
+        .about-text h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            margin-top: 2rem;
+            border-bottom: 1px solid skyblue;
+            color: yellow;
+        }
+
+        .about-text p::first-line {
+            color: #7280d8;
+        }
+
+        .aboutDeveloper {
+            background-color: #7280d8;
+            padding: 2rem;
+
+        }
+        .aboutDeveloper h2{
+            border-bottom: 2px solid yellow;
+            font-size: 2rem;
+            width: 40%;
+        }
+        .aboutDeveloper h5{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+      
+        .getTouch {
+            background-color: yellow;
+            padding: 2rem;
+        }
+
+        .getTouch h2 {
+            color: #7280d8;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #7280d8;
+            font-size: 2rem;
+            width: 40%;
+        }
+
+        .getTouch p {
+            width: 50%;
+            color: black;
+            margin-top: 1rem;
+            line-height: 1.3rem;
+        }
+
+        @media screen  and (max-width:600px){
+            .img , .about-text{
+                width: 100%;
+            }
+            .about{
+                flex-direction: column;
+            }
+            .getTouch p{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="logo">
+        <div class="img-text">
+            <img src="/img/1.jpg" alt="logo">
+            <div class="flex">
+                <h4>meme<span style="color: yellow;">Maker</span></h4>
+                <p>akele hasa skta hoo apko</p>
+            </div>
+        </div>
+
+
+
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/meme.html">createMeme</a>
+            <a href="/about.html#feedback">Give feedback</a>
+        </nav>
+
+    </div>
+
+
+    <div class="about">
+
+        <div class="img">
+            <img src="./img/meme3.jpg" />
+        </div>
+
+        <div class="about-text">
+            <h2>About us</h2>
+            <p class="about-p">
+                At memeMaker, we believe that laughter is the best medicine, and memes are the ultimate prescription.
+                Our platform is dedicated to providing users with the tools they need to create, share, and enjoy
+                hilarious memes that spread joy across the internet.
+            </p>
+
+            <h3>
+                Our Mission: Spreading Smiles &#128513, One Meme at a Time
+            </h3>
+            <p>Our mission is simple: to be the ultimate destination for meme enthusiasts worldwide. We strive to
+                empower our users to express themselves creatively through the art of memeing, whether they're crafting
+                original content or remixing popular templates.</p>
+        </div>
+    </div>
+
+    <div class="aboutDeveloper">
+        <h2>About Developer</h2>
+        <h5>Project is made for Major Project</h5>
+        <p>College name : Post Graduate Govt College Sec-11 Chandigarh</p>
+        <p>Name : Ishika</p>
+        <p>Roll no : 7084 / 21</p>
+
+    </div>
+    <div class="getTouch" id="feedback">
+        <h2>Get in Touch
+
+        </h2>
+        <p>Have feedback, questions, or suggestions? We'd love to hear from you! Contact our team at
+            <a style="color: #7280d8;" href="mailto:mememaker@gmail.com">mememaker@gmail.com</a> and let us know how we can improve your meme-making experience.</p>
+    </div>
+</body>
+
+</html>
